@@ -1,7 +1,5 @@
-print "how old are you?",
-age = raw_input()
+age = input("how old are you?")
 
-print "how tall are you?",
-height = raw_input()
+height = input("how tall are you?")
 
-print "So you are %ryr old and %rft tall guy..." %(age, height)
+print "Great! you are %ryr old and %rft tall guy !!" %(age, height)
